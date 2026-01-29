@@ -163,6 +163,29 @@ const shouldNot = [
     "You're not willing to share what you're learning",
 ];
 
+const whatGetsProduced = [
+    {
+        category: "For Ventures & Organizations",
+        items: ["Business plans and financial models", "Market research and feasibility studies", "Strategic plans and implementation roadmaps"],
+    },
+    {
+        category: "For Knowledge Building",
+        items: ["Research reports addressing specific questions", "Case studies documenting what worked and what didn't", "Guides and tools others can use", "Policy briefs for decision-makers"],
+    },
+    {
+        category: "For Participants",
+        items: ["Networks of collaborators and thought partners", "Portfolio work demonstrating capabilities", "Refined ideas and validated approaches", "Connections to opportunities and resources"],
+    },
+];
+
+const practicalReality = [
+    "Connect you with others facing similar challenges",
+    "Provide structured frameworks for working through problems",
+    "Support rigorous research on questions that matter",
+    "Offer diverse perspectives that improve your thinking",
+    "Link you to resources and people who can help",
+];
+
 export default function ThinkTankPage() {
     return (
         <>
@@ -351,6 +374,67 @@ export default function ThinkTankPage() {
                             </AnimatedDiv>
                         ))}
                     </div>
+                </Container>
+            </section>
+
+            {/* What Gets Produced */}
+            <section className="section-padding bg-white">
+                <Container>
+                    <AnimatedSection animation="fadeUp" className="text-center mb-12">
+                        <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
+                            What Gets Produced
+                        </h2>
+                        <p className="text-body-lg text-neutral-600 max-w-2xl mx-auto">
+                            Everything produced is shared openly unless there are specific confidentiality needs. The goal is learning and impact, not proprietary knowledge.
+                        </p>
+                    </AnimatedSection>
+
+                    <div className="grid md:grid-cols-3 gap-8">
+                        {whatGetsProduced.map((category, i) => (
+                            <AnimatedDiv key={i} animation="fadeUp" delay={i * 0.15}>
+                                <div className="h-full p-6 rounded-2xl bg-neutral-50 border border-neutral-200">
+                                    <h3 className="font-semibold text-neutral-900 mb-4">{category.category}</h3>
+                                    <ul className="space-y-2">
+                                        {category.items.map((item, j) => (
+                                            <li key={j} className="flex items-start gap-2 text-sm text-neutral-600">
+                                                <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0" />
+                                                {item}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </AnimatedDiv>
+                        ))}
+                    </div>
+                </Container>
+            </section>
+
+            {/* The Practical Reality */}
+            <section className="section-padding bg-neutral-50">
+                <Container variant="narrow">
+                    <AnimatedSection animation="fadeUp" className="text-center">
+                        <h2 className="text-heading-2 font-bold text-neutral-900 mb-6">
+                            The Practical Reality
+                        </h2>
+                        <p className="text-neutral-600 mb-8">
+                            Think Tank operates on limited resources. We can't support every project, provide deep expertise in every domain, or solve every problem. <span className="font-medium text-neutral-800">We're honest about what we can and can't provide.</span>
+                        </p>
+
+                        <div className="p-6 rounded-2xl bg-white border border-neutral-200 text-left">
+                            <h3 className="font-semibold text-neutral-900 mb-4">What we can do:</h3>
+                            <ul className="space-y-3">
+                                {practicalReality.map((item, i) => (
+                                    <li key={i} className="flex items-start gap-3 text-neutral-700">
+                                        <Check className="w-5 h-5 mt-0.5 flex-shrink-0 text-green-500" />
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                            <p className="mt-6 text-sm text-neutral-500 italic">
+                                Sometimes that's enough to unlock what you need. Sometimes you'll need more specialized support elsewhere.
+                            </p>
+                        </div>
+                    </AnimatedSection>
                 </Container>
             </section>
 

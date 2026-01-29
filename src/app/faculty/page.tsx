@@ -111,7 +111,7 @@ function FacultyCard({ member, index }: { member: FacultyMember; index: number }
                     <div className="flex gap-2">
                         <Quote className="w-4 h-4 text-primary-400 flex-shrink-0 mt-0.5" />
                         <p className="text-sm text-neutral-600 italic leading-relaxed">
-                            "{member.quote}"
+                            &quot;{member.quote}&quot;
                         </p>
                     </div>
                 </div>

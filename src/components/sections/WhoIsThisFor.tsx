@@ -129,8 +129,8 @@ export function WhoIsThisFor() {
                     className="mt-12 text-center"
                 >
                     <blockquote className="text-lg text-neutral-600 italic max-w-2xl mx-auto">
-                        "We offer credentials for your achievements—but more importantly,
-                        we focus on delivering real results."
+                        &quot;We offer credentials for your achievements—but more importantly,
+                        we focus on delivering real results.&quot;
                     </blockquote>
                 </motion.div>
             </Container>

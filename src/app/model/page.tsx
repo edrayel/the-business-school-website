@@ -67,6 +67,31 @@ const studentValue = [
     { icon: <Network className="w-6 h-6" />, title: "Network Value", desc: "Classmates are practitioners, entrepreneurs, builders. Relationships become partnerships." },
 ];
 
+const workValue = [
+    "Strategic capability—analyze competitive environments, position offerings, allocate resources",
+    "Financial literacy—read balance sheets, build models, evaluate investments, manage cash flow",
+    "Operational competence—design efficient processes, manage supply chains, scale operations",
+    "Leadership skills—build teams, manage performance, navigate conflict, create culture",
+    "Market understanding—validate ideas, understand customer needs, develop positioning",
+    "Credibility—an MBA signals competence to partners, investors, employers, and stakeholders",
+];
+
+const communityValue = [
+    { title: "Economic Opportunity", desc: "Educated entrepreneurs create businesses. Businesses create jobs. Jobs create income and opportunity." },
+    { title: "Better Solutions", desc: "More diverse perspectives inform how businesses are built and problems are solved." },
+    { title: "New Knowledge", desc: "Research addresses questions specific to underserved markets, generating solutions that don't exist elsewhere." },
+    { title: "Knowledge Diffusion", desc: "What you learn doesn't stay with you. You teach others, mentor emerging leaders, strengthen your ecosystem." },
+];
+
+const sustainabilityFactors = [
+    { title: "Aligned Incentives", desc: "Our success depends on your success. If graduates thrive, more students enroll." },
+    { title: "Market Positioning", desc: "Serving growing, underserved markets rather than competing in saturated ones." },
+    { title: "Operational Efficiency", desc: "Low overhead and technology leverage create healthy margins at accessible prices." },
+    { title: "Quality Focus", desc: "We maintain standards because reputation is everything." },
+    { title: "Community Effects", desc: "As alumni networks grow, value increases for everyone." },
+    { title: "Adaptability", desc: "Our model responds to changing needs without massive capital requirements." },
+];
+
 export default function ModelPage() {
     return (
         <>
@@ -376,6 +401,77 @@ export default function ModelPage() {
                                 <h3 className="font-semibold text-neutral-900 mb-2">{item.title}</h3>
                                 <p className="text-sm text-neutral-600">{item.desc}</p>
                             </MotionCard>
+                        ))}
+                    </div>
+                </Container>
+            </section>
+
+            {/* Value for Your Work */}
+            <section className="section-padding bg-neutral-50">
+                <Container>
+                    <AnimatedSection animation="fadeUp" className="text-center mb-12">
+                        <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
+                            Value for Your Work &amp; Ventures
+                        </h2>
+                        <p className="text-body-lg text-neutral-600 max-w-2xl mx-auto">
+                            Whether it's a venture, an organization, or a community initiative—you'll have the strategic frameworks and operational tools to do it sustainably.
+                        </p>
+                    </AnimatedSection>
+
+                    <AnimatedDiv animation="fadeUp" delay={0.2}>
+                        <div className="max-w-3xl mx-auto p-8 rounded-2xl bg-white border border-neutral-200 shadow-soft">
+                            <ul className="grid sm:grid-cols-2 gap-4">
+                                {workValue.map((item, i) => (
+                                    <li key={i} className="flex items-start gap-3 text-neutral-700">
+                                        <span className="mt-2 w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0" />
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </AnimatedDiv>
+                </Container>
+            </section>
+
+            {/* Value for Communities */}
+            <section className="section-padding bg-white">
+                <Container>
+                    <AnimatedSection animation="fadeUp" className="text-center mb-12">
+                        <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
+                            Value for Communities &amp; Markets
+                        </h2>
+                    </AnimatedSection>
+
+                    <StaggerContainer className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6" staggerDelay={0.1}>
+                        {communityValue.map((item, i) => (
+                            <StaggerItem key={i}>
+                                <MotionCard className="h-full" delay={i * 0.1}>
+                                    <h3 className="font-semibold text-neutral-900 mb-2">{item.title}</h3>
+                                    <p className="text-sm text-neutral-600">{item.desc}</p>
+                                </MotionCard>
+                            </StaggerItem>
+                        ))}
+                    </StaggerContainer>
+                </Container>
+            </section>
+
+            {/* What Makes This Sustainable */}
+            <section className="section-padding bg-neutral-50">
+                <Container>
+                    <AnimatedSection animation="fadeUp" className="text-center mb-12">
+                        <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
+                            What Makes This Sustainable Long-Term
+                        </h2>
+                    </AnimatedSection>
+
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {sustainabilityFactors.map((item, i) => (
+                            <AnimatedDiv key={i} animation="fadeUp" delay={i * 0.1}>
+                                <div className="h-full p-6 rounded-2xl bg-white border border-neutral-200">
+                                    <h3 className="font-semibold text-neutral-900 mb-2">{item.title}</h3>
+                                    <p className="text-sm text-neutral-600">{item.desc}</p>
+                                </div>
+                            </AnimatedDiv>
                         ))}
                     </div>
                 </Container>
