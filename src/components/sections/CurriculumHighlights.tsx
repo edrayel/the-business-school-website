@@ -30,7 +30,7 @@ const curriculumItems = [
                     Develop the ability to work with data, conduct rigorous research, leverage AI tools,
                     and make evidence-based decisions that drive real results.
                 </p>
-                <ul className="list-disc list-inside text-neutral-600 space-y-1">
+                <ul className="list-disc list-inside text-neutral-700 space-y-1">
                     <li>Data analysis and visualization</li>
                     <li>Research methodology</li>
                     <li>AI-assisted decision making</li>
@@ -49,7 +49,7 @@ const curriculumItems = [
                     Learn to lead teams, navigate complex dynamics, manage conflict, build
                     organizational culture, and make ethical decisions under pressure.
                 </p>
-                <p className="text-neutral-600">
+                <p className="text-neutral-700">
                     These aren't soft skills—they're the hard skills that determine whether
                     organizations succeed or fail.
                 </p>
@@ -65,7 +65,7 @@ const curriculumItems = [
                 <p>
                     Deep training in areas that matter for building sustainable ventures with purpose:
                 </p>
-                <ul className="list-disc list-inside text-neutral-600 space-y-1">
+                <ul className="list-disc list-inside text-neutral-700 space-y-1">
                     <li>Development economics</li>
                     <li>Bottom-of-the-pyramid business models</li>
                     <li>Social entrepreneurship</li>
@@ -84,7 +84,7 @@ const curriculumItems = [
                     Work on real ventures and real problems—not hypothetical cases. Our applied
                     learning includes:
                 </p>
-                <ul className="list-disc list-inside text-neutral-600 space-y-1">
+                <ul className="list-disc list-inside text-neutral-700 space-y-1">
                     <li>Entrepreneurship lab with live projects</li>
                     <li>Venture competitions with real funding</li>
                     <li>Guest sessions with practitioners</li>
@@ -103,7 +103,7 @@ export function CurriculumHighlights() {
                     <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
                         What You'll Actually Learn
                     </h2>
-                    <p className="text-body-lg text-neutral-600">
+                    <p className="text-body-lg text-neutral-700">
                         A curriculum designed for application, not just accumulation.
                     </p>
                 </AnimatedSection>

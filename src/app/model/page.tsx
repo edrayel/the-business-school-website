@@ -145,11 +145,11 @@ export default function ModelPage() {
                             <h2 className="text-heading-1 font-bold text-neutral-900 mb-6">
                                 Platform-First Infrastructure
                             </h2>
-                            <p className="text-body-lg text-neutral-600 mb-6">
+                            <p className="text-body-lg text-neutral-700 mb-6">
                                 Our primary educational infrastructure is digital—an integrated platform
                                 handling everything. Accessible 24/7 from anywhere.
                             </p>
-                            <p className="text-neutral-600">
+                            <p className="text-neutral-700">
                                 The investment we make in technology would traditionally go toward buildings.
                                 Buildings serve dozens. <span className="text-primary-600 font-semibold">Our platform serves thousands and gets better with use.</span>
                             </p>
@@ -182,7 +182,7 @@ export default function ModelPage() {
                         <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
                             Hybrid Delivery Using Public Spaces
                         </h2>
-                        <p className="text-body-lg text-neutral-600">
+                        <p className="text-body-lg text-neutral-700">
                             When face-to-face interaction creates value, we use spaces that already exist.
                             No mortgages. No maintenance. No utility bills for empty rooms.
                         </p>
@@ -217,7 +217,7 @@ export default function ModelPage() {
                             <h2 className="text-heading-1 font-bold text-neutral-900 mb-6">
                                 Expert Faculty, Flexible Structure
                             </h2>
-                            <p className="text-body-lg text-neutral-600">
+                            <p className="text-body-lg text-neutral-700">
                                 We employ faculty who can teach at the highest level—matching the right
                                 expertise to each learning need without carrying fixed costs of large
                                 tenured faculty bodies.
@@ -229,7 +229,7 @@ export default function ModelPage() {
                                 <AnimatedDiv key={i} animation="fadeUp" delay={i * 0.1}>
                                     <div className="p-5 rounded-xl bg-white border border-neutral-200 h-full">
                                         <h3 className="font-semibold text-neutral-900 mb-2">{type.title}</h3>
-                                        <p className="text-sm text-neutral-600">{type.desc}</p>
+                                        <p className="text-sm text-neutral-700">{type.desc}</p>
                                     </div>
                                 </AnimatedDiv>
                             ))}
@@ -250,15 +250,15 @@ export default function ModelPage() {
                             Industry-Adaptive Curriculum
                         </h2>
                         <div className="space-y-4 text-left">
-                            <p className="text-neutral-600 leading-relaxed">
+                            <p className="text-neutral-700 leading-relaxed">
                                 <span className="font-semibold text-neutral-900">Foundation content</span> remains
                                 consistent—fundamental management, finance, analytics, leadership.
                             </p>
-                            <p className="text-neutral-600 leading-relaxed">
+                            <p className="text-neutral-700 leading-relaxed">
                                 <span className="font-semibold text-neutral-900">Application changes by industry</span>—cases,
                                 projects, guest faculty reflect specific sectors.
                             </p>
-                            <p className="text-neutral-600 leading-relaxed">
+                            <p className="text-neutral-700 leading-relaxed">
                                 <span className="font-semibold text-neutral-900">Cohort structure enables customization</span>—agriculture,
                                 fashion, sports cohorts get same core knowledge applied differently.
                             </p>
@@ -347,7 +347,7 @@ export default function ModelPage() {
                                     <TrendingUp className="w-6 h-6" />
                                 </div>
                                 <h3 className="text-lg font-bold text-neutral-900 mb-3">Financial Sustainability</h3>
-                                <p className="text-neutral-600 text-sm leading-relaxed">
+                                <p className="text-neutral-700 text-sm leading-relaxed">
                                     Low fixed costs, variable costs that scale, accessible pricing.
                                     Sustainable cycle: more students → more resources → better outcomes → stronger reputation.
                                 </p>
@@ -360,7 +360,7 @@ export default function ModelPage() {
                                     <Target className="w-6 h-6" />
                                 </div>
                                 <h3 className="text-lg font-bold text-neutral-900 mb-3">Educational Effectiveness</h3>
-                                <p className="text-neutral-600 text-sm leading-relaxed">
+                                <p className="text-neutral-700 text-sm leading-relaxed">
                                     Hybrid learning for working professionals is often superior. Immediate application,
                                     maintained context, diverse perspectives, technology preparation.
                                 </p>
@@ -373,7 +373,7 @@ export default function ModelPage() {
                                     <Rocket className="w-6 h-6" />
                                 </div>
                                 <h3 className="text-lg font-bold text-neutral-900 mb-3">Scalability</h3>
-                                <p className="text-neutral-600 text-sm leading-relaxed">
+                                <p className="text-neutral-700 text-sm leading-relaxed">
                                     Platform costs don't increase proportionally. Public spaces exist everywhere.
                                     Faculty can teach remotely. We can serve 10x without fundamentally changing how we operate.
                                 </p>
@@ -399,7 +399,7 @@ export default function ModelPage() {
                                     {item.icon}
                                 </div>
                                 <h3 className="font-semibold text-neutral-900 mb-2">{item.title}</h3>
-                                <p className="text-sm text-neutral-600">{item.desc}</p>
+                                <p className="text-sm text-neutral-700">{item.desc}</p>
                             </MotionCard>
                         ))}
                     </div>
@@ -413,7 +413,7 @@ export default function ModelPage() {
                         <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
                             Value for Your Work &amp; Ventures
                         </h2>
-                        <p className="text-body-lg text-neutral-600 max-w-2xl mx-auto">
+                        <p className="text-body-lg text-neutral-700 max-w-2xl mx-auto">
                             Whether it's a venture, an organization, or a community initiative—you'll have the strategic frameworks and operational tools to do it sustainably.
                         </p>
                     </AnimatedSection>
@@ -447,7 +447,7 @@ export default function ModelPage() {
                             <StaggerItem key={i}>
                                 <MotionCard className="h-full" delay={i * 0.1}>
                                     <h3 className="font-semibold text-neutral-900 mb-2">{item.title}</h3>
-                                    <p className="text-sm text-neutral-600">{item.desc}</p>
+                                    <p className="text-sm text-neutral-700">{item.desc}</p>
                                 </MotionCard>
                             </StaggerItem>
                         ))}
@@ -469,7 +469,7 @@ export default function ModelPage() {
                             <AnimatedDiv key={i} animation="fadeUp" delay={i * 0.1}>
                                 <div className="h-full p-6 rounded-2xl bg-white border border-neutral-200">
                                     <h3 className="font-semibold text-neutral-900 mb-2">{item.title}</h3>
-                                    <p className="text-sm text-neutral-600">{item.desc}</p>
+                                    <p className="text-sm text-neutral-700">{item.desc}</p>
                                 </div>
                             </AnimatedDiv>
                         ))}

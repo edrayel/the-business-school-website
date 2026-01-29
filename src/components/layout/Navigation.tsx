@@ -71,7 +71,7 @@ export function Navigation() {
                                     href={link.href}
                                     className={`relative py-2 text-sm font-medium transition-colors ${pathname === link.href
                                             ? "text-primary-600"
-                                            : "text-neutral-600 hover:text-primary-600"
+                                            : "text-neutral-700 hover:text-primary-600"
                                         }`}
                                 >
                                     {link.label}

@@ -27,7 +27,7 @@ export function Card({
     const baseStyles = `rounded-2xl bg-white shadow-soft ${paddingStyles[padding]}`;
     const borderStyles = bordered ? "border border-neutral-200" : "";
     const hoverStyles = hover
-        ? "transition-all duration-300 hover:shadow-medium hover:-translate-y-1"
+        ? "transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:scale-[1.01]"
         : "";
 
     return (
@@ -60,7 +60,7 @@ export function MotionCard({
             transition={{ duration: 0.5, delay, ease: [0.25, 0.1, 0.25, 1] }}
             whileHover={
                 hover
-                    ? { y: -4, boxShadow: "0 10px 40px -10px rgba(0, 0, 0, 0.15)" }
+                    ? { y: -6, scale: 1.01, boxShadow: "0 20px 40px -15px rgba(0, 0, 0, 0.18)" }
                     : undefined
             }
             className={`${baseStyles} ${borderStyles} transition-shadow ${className}`}
@@ -95,7 +95,7 @@ export function IconCard({
                     <h3 className="text-lg font-semibold text-neutral-900 mb-2">
                         {title}
                     </h3>
-                    <p className="text-neutral-600 leading-relaxed">{description}</p>
+                    <p className="text-neutral-700 leading-relaxed">{description}</p>
                 </div>
             </div>
         </MotionCard>

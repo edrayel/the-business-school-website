@@ -26,7 +26,7 @@ export function WhoIsThisFor() {
                     <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
                         Who This Is For
                     </h2>
-                    <p className="text-body-lg text-neutral-600 max-w-2xl mx-auto">
+                    <p className="text-body-lg text-neutral-700 max-w-2xl mx-auto">
                         We're building this for people who want results, not just a document
                         to show they studied.
                     </p>
@@ -128,7 +128,7 @@ export function WhoIsThisFor() {
                     transition={{ duration: 0.6, delay: 0.3 }}
                     className="mt-12 text-center"
                 >
-                    <blockquote className="text-lg text-neutral-600 italic max-w-2xl mx-auto">
+                    <blockquote className="text-lg text-neutral-700 italic max-w-2xl mx-auto">
                         &quot;We offer credentials for your achievements—but more importantly,
                         we focus on delivering real results.&quot;
                     </blockquote>

@@ -59,7 +59,7 @@ export function WhyThisWorks() {
                     <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
                         Why This Works
                     </h2>
-                    <p className="text-body-lg text-neutral-600 max-w-2xl mx-auto">
+                    <p className="text-body-lg text-neutral-700 max-w-2xl mx-auto">
                         Value that compounds across every aspect of your life, your career, and the communities you serve.
                     </p>
                 </AnimatedSection>
@@ -80,7 +80,7 @@ export function WhyThisWorks() {
                                     <h3 className="text-lg font-bold text-neutral-900 mb-3">
                                         {benefit.title}
                                     </h3>
-                                    <p className="text-neutral-600 leading-relaxed text-sm mb-4 flex-grow">
+                                    <p className="text-neutral-700 leading-relaxed text-sm mb-4 flex-grow">
                                         {benefit.description}
                                     </p>
                                     <p className={`text-sm font-medium ${colors.highlight} leading-relaxed`}>

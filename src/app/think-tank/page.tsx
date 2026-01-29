@@ -40,7 +40,7 @@ const activities = [
             <div className="space-y-4">
                 <p>Research at THE Think Tank addresses questions that matter to people building things. Not research for publication's sake—research to inform decisions and generate new solutions.</p>
                 <p className="font-medium text-neutral-800">Questions we explore:</p>
-                <ul className="list-disc list-inside text-neutral-600 space-y-1 ml-2">
+                <ul className="list-disc list-inside text-neutral-700 space-y-1 ml-2">
                     <li>What business models work for smallholder farmers in specific regions?</li>
                     <li>How do microenterprises in informal economies access capital?</li>
                     <li>What factors determine success for women-led ventures?</li>
@@ -74,7 +74,7 @@ const activities = [
                         </div>
                     ))}
                 </div>
-                <p className="text-neutral-600">Groups meet monthly in hybrid format. <span className="font-medium text-neutral-800">These aren't networking groups—they're working groups.</span></p>
+                <p className="text-neutral-700">Groups meet monthly in hybrid format. <span className="font-medium text-neutral-800">These aren't networking groups—they're working groups.</span></p>
             </div>
         ),
     },
@@ -86,7 +86,7 @@ const activities = [
             <div className="space-y-4">
                 <p>Regular sessions with people doing the work—entrepreneurs, investors, policymakers, operators sharing specific insights you can use.</p>
                 <p className="font-medium text-primary-700">Not motivational speeches. Knowledge transfer.</p>
-                <p className="text-neutral-600">Sessions are hybrid. Recordings available for those who can't attend live.</p>
+                <p className="text-neutral-700">Sessions are hybrid. Recordings available for those who can't attend live.</p>
             </div>
         ),
     },
@@ -97,13 +97,13 @@ const activities = [
         content: (
             <div className="space-y-4">
                 <p>For people building businesses or organizations:</p>
-                <ul className="list-disc list-inside text-neutral-600 space-y-1 ml-2">
+                <ul className="list-disc list-inside text-neutral-700 space-y-1 ml-2">
                     <li>Feedback sessions on your model</li>
                     <li>Office hours with faculty and experienced entrepreneurs</li>
                     <li>Help validating markets and testing assumptions</li>
                     <li>Connections to potential partners and investors</li>
                 </ul>
-                <p className="text-neutral-600">This isn't formal incubation. It's <span className="font-medium text-neutral-800">ongoing support from people who know what you're going through.</span></p>
+                <p className="text-neutral-700">This isn't formal incubation. It's <span className="font-medium text-neutral-800">ongoing support from people who know what you're going through.</span></p>
             </div>
         ),
     },
@@ -241,11 +241,11 @@ export default function ThinkTankPage() {
                             <h2 className="text-heading-1 font-bold text-neutral-900 mb-6">
                                 What It Is
                             </h2>
-                            <p className="text-body-lg text-neutral-600 mb-6">
+                            <p className="text-body-lg text-neutral-700 mb-6">
                                 THE Think Tank is a collaborative platform—both digital and physical—where
                                 people come together to work on things that matter.
                             </p>
-                            <p className="text-neutral-600">
+                            <p className="text-neutral-700">
                                 Structured enough to be productive. Flexible enough to respond to what people actually need.
                             </p>
                         </AnimatedSection>
@@ -255,7 +255,7 @@ export default function ThinkTankPage() {
                                 <h3 className="font-semibold text-neutral-900 mb-4">Who participates:</h3>
                                 <ul className="space-y-3">
                                     {participants.map((p, i) => (
-                                        <li key={i} className="flex items-center gap-3 text-neutral-600">
+                                        <li key={i} className="flex items-center gap-3 text-neutral-700">
                                             <span className="w-2 h-2 rounded-full bg-primary-500 flex-shrink-0" />
                                             {p}
                                         </li>
@@ -299,7 +299,7 @@ export default function ThinkTankPage() {
                                         {item.icon}
                                     </div>
                                     <h3 className="font-semibold text-neutral-900 mb-2">{item.title}</h3>
-                                    <p className="text-sm text-neutral-600">{item.description}</p>
+                                    <p className="text-sm text-neutral-700">{item.description}</p>
                                 </MotionCard>
                             </StaggerItem>
                         ))}
@@ -325,7 +325,7 @@ export default function ThinkTankPage() {
                                     </div>
                                     <h3 className="font-semibold text-neutral-900">Digital Platform</h3>
                                 </div>
-                                <p className="text-neutral-600 text-sm leading-relaxed">
+                                <p className="text-neutral-700 text-sm leading-relaxed">
                                     Primary workspace for ongoing collaboration: project management tools,
                                     discussion forums, resource library, calendar of events, and matching
                                     system connecting people with complementary skills. Accessible anytime, anywhere.
@@ -341,7 +341,7 @@ export default function ThinkTankPage() {
                                     </div>
                                     <h3 className="font-semibold text-neutral-900">Physical Sessions</h3>
                                 </div>
-                                <p className="text-neutral-600 text-sm leading-relaxed">
+                                <p className="text-neutral-700 text-sm leading-relaxed">
                                     Monthly gatherings in community centers, working group meetings in libraries
                                     or cafés, intensive workshops in co-working spaces, and field research in
                                     communities where challenges exist.
@@ -384,7 +384,7 @@ export default function ThinkTankPage() {
                         <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
                             What Gets Produced
                         </h2>
-                        <p className="text-body-lg text-neutral-600 max-w-2xl mx-auto">
+                        <p className="text-body-lg text-neutral-700 max-w-2xl mx-auto">
                             Everything produced is shared openly unless there are specific confidentiality needs. The goal is learning and impact, not proprietary knowledge.
                         </p>
                     </AnimatedSection>
@@ -396,7 +396,7 @@ export default function ThinkTankPage() {
                                     <h3 className="font-semibold text-neutral-900 mb-4">{category.category}</h3>
                                     <ul className="space-y-2">
                                         {category.items.map((item, j) => (
-                                            <li key={j} className="flex items-start gap-2 text-sm text-neutral-600">
+                                            <li key={j} className="flex items-start gap-2 text-sm text-neutral-700">
                                                 <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0" />
                                                 {item}
                                             </li>
@@ -416,7 +416,7 @@ export default function ThinkTankPage() {
                         <h2 className="text-heading-2 font-bold text-neutral-900 mb-6">
                             The Practical Reality
                         </h2>
-                        <p className="text-neutral-600 mb-8">
+                        <p className="text-neutral-700 mb-8">
                             Think Tank operates on limited resources. We can't support every project, provide deep expertise in every domain, or solve every problem. <span className="font-medium text-neutral-800">We're honest about what we can and can't provide.</span>
                         </p>
 
@@ -484,7 +484,7 @@ export default function ThinkTankPage() {
                     </div>
 
                     <AnimatedDiv animation="fadeUp" delay={0.3} className="text-center mt-8">
-                        <p className="text-neutral-600 italic">
+                        <p className="text-neutral-700 italic">
                             This is for people building things, researching real questions, and helping others do the same.
                         </p>
                     </AnimatedDiv>
@@ -500,19 +500,19 @@ export default function ThinkTankPage() {
                         </h2>
 
                         <div className="space-y-4 text-left mb-10">
-                            <p className="text-neutral-600">
+                            <p className="text-neutral-700">
                                 <span className="font-semibold text-neutral-900">Current students:</span> Talk to your
                                 faculty advisor about Think Tank opportunities.
                             </p>
-                            <p className="text-neutral-600">
+                            <p className="text-neutral-700">
                                 <span className="font-semibold text-neutral-900">Alumni:</span> Access through the alumni
                                 portal to propose projects or offer mentorship.
                             </p>
-                            <p className="text-neutral-600">
+                            <p className="text-neutral-700">
                                 <span className="font-semibold text-neutral-900">Organizations:</span> Submit a project
                                 proposal—we respond within two weeks.
                             </p>
-                            <p className="text-neutral-600">
+                            <p className="text-neutral-700">
                                 <span className="font-semibold text-neutral-900">Community:</span> Join our mailing list
                                 for open sessions and event announcements.
                             </p>

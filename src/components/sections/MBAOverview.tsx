@@ -40,7 +40,7 @@ export function MBAOverview() {
                                 <span className="text-primary-600">& Entrepreneurship</span>
                             </h2>
 
-                            <p className="text-body-lg text-neutral-600 mb-8 leading-relaxed">
+                            <p className="text-body-lg text-neutral-700 mb-8 leading-relaxed">
                                 A focused MBA designed for people solving real problems—building social
                                 enterprises, non-profits, or innovating within existing organizations
                                 and government.
@@ -78,7 +78,7 @@ export function MBAOverview() {
                                             <h3 className="text-lg font-semibold text-neutral-900 mb-2">
                                                 {feature.label}
                                             </h3>
-                                            <p className="text-neutral-600 leading-relaxed">
+                                            <p className="text-neutral-700 leading-relaxed">
                                                 {feature.description}
                                             </p>
                                         </div>

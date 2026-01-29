@@ -18,7 +18,7 @@
     html {
       scroll-behavior: auto;
     }
-    
+
     *,
     *::before,
     *::after {
@@ -50,6 +50,7 @@
 }
 
 @layer components {
+
   /* Container */
   .container-custom {
     @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
@@ -87,15 +88,15 @@
   }
 
   .btn-primary {
-    @apply btn bg-primary-600 text-white shadow-soft hover:bg-primary-700 hover:shadow-medium hover:-translate-y-0.5 active:translate-y-0 focus-visible:ring-primary-500;
+    @apply btn bg-primary-600 text-white shadow-soft hover:bg-primary-700 hover:shadow-medium hover:-translate-y-0.5 hover:scale-[1.02] active:translate-y-0 active:scale-100 focus-visible:ring-primary-500;
   }
 
   .btn-secondary {
-    @apply btn border-2 border-primary-600 bg-transparent text-primary-600 hover:bg-primary-600 hover:text-white hover:-translate-y-0.5 active:translate-y-0 focus-visible:ring-primary-500;
+    @apply btn border-2 border-primary-600 bg-transparent text-primary-600 hover:bg-primary-600 hover:text-white hover:-translate-y-0.5 hover:scale-[1.02] active:translate-y-0 active:scale-100 focus-visible:ring-primary-500;
   }
 
   .btn-accent {
-    @apply btn bg-accent-500 text-white shadow-soft hover:bg-accent-600 hover:shadow-medium hover:-translate-y-0.5 active:translate-y-0 focus-visible:ring-accent-500;
+    @apply btn bg-accent-500 text-white shadow-soft hover:bg-accent-600 hover:shadow-medium hover:-translate-y-0.5 hover:scale-[1.02] active:translate-y-0 active:scale-100 focus-visible:ring-accent-500;
   }
 
   .btn-ghost {
@@ -116,11 +117,27 @@
   }
 
   .card-hover {
-    @apply card hover:shadow-medium hover:-translate-y-1;
+    @apply card hover:shadow-lg hover:-translate-y-1 hover:scale-[1.01];
   }
 
   .card-bordered {
     @apply card border border-neutral-200;
+  }
+
+  /* Premium card with glassmorphism */
+  .card-glass {
+    @apply rounded-2xl p-6 transition-all duration-300;
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+
+  .card-glass-hover {
+    @apply card-glass hover:bg-white/90 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  /* Elevated card with stronger shadow */
+  .card-elevated {
+    @apply rounded-2xl bg-white p-6 shadow-lg transition-all duration-300;
+    @apply hover:shadow-xl hover:-translate-y-1.5;
   }
 
   /* Input base */
@@ -162,12 +179,13 @@
 }
 
 @layer utilities {
+
   /* Hide scrollbar but keep scrolling */
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  
+
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }

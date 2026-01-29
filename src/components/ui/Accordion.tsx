@@ -42,16 +42,23 @@ export function Accordion({
                 return (
                     <div
                         key={item.id}
-                        className="rounded-xl border border-neutral-200 bg-white overflow-hidden"
+                        className={`rounded-xl border bg-white overflow-hidden transition-all duration-300 ${isOpen
+                                ? "border-primary-300 shadow-md"
+                                : "border-neutral-200 hover:border-neutral-300"
+                            }`}
                     >
                         <button
                             onClick={() => toggleItem(item.id)}
-                            className="w-full flex items-center justify-between p-5 text-left hover:bg-neutral-50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500"
+                            className={`w-full flex items-center justify-between p-5 text-left transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500 ${isOpen ? "bg-primary-50/50" : "hover:bg-neutral-50"
+                                }`}
                             aria-expanded={isOpen}
                         >
                             <div className="flex items-center gap-3">
                                 {item.icon && (
-                                    <div className="p-2 rounded-lg bg-primary-100 text-primary-600">
+                                    <div className={`p-2 rounded-lg transition-colors ${isOpen
+                                            ? "bg-primary-600 text-white"
+                                            : "bg-primary-100 text-primary-600"
+                                        }`}>
                                         {item.icon}
                                     </div>
                                 )}
@@ -61,9 +68,10 @@ export function Accordion({
                             </div>
                             <motion.div
                                 animate={{ rotate: isOpen ? 180 : 0 }}
-                                transition={{ duration: 0.2 }}
+                                transition={{ duration: 0.25, ease: "easeInOut" }}
                             >
-                                <ChevronDown className="w-5 h-5 text-neutral-500" />
+                                <ChevronDown className={`w-5 h-5 transition-colors ${isOpen ? "text-primary-600" : "text-neutral-500"
+                                    }`} />
                             </motion.div>
                         </button>
 
@@ -75,7 +83,7 @@ export function Accordion({
                                     exit={{ height: 0, opacity: 0 }}
                                     transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
                                 >
-                                    <div className="px-5 pb-5 text-neutral-600 leading-relaxed">
+                                    <div className="px-5 pb-5 text-neutral-700 leading-relaxed">
                                         {item.content}
                                     </div>
                                 </motion.div>

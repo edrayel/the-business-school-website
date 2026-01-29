@@ -31,7 +31,7 @@ const curriculumAreas = [
         icon: <BookOpen className="w-5 h-5" />,
         title: "Management Fundamentals",
         content: (
-            <ul className="space-y-2 text-neutral-600">
+            <ul className="space-y-2 text-neutral-700">
                 <li>• Financial accounting and management accounting</li>
                 <li>• Corporate finance and investment decisions</li>
                 <li>• Operations management and process optimization</li>
@@ -45,7 +45,7 @@ const curriculumAreas = [
         icon: <TrendingUp className="w-5 h-5" />,
         title: "Analytical Methods",
         content: (
-            <ul className="space-y-2 text-neutral-600">
+            <ul className="space-y-2 text-neutral-700">
                 <li>• Data analysis and business intelligence</li>
                 <li>• Statistical methods for business decisions</li>
                 <li>• Research methodology</li>
@@ -58,7 +58,7 @@ const curriculumAreas = [
         icon: <Users className="w-5 h-5" />,
         title: "Leadership Capabilities",
         content: (
-            <ul className="space-y-2 text-neutral-600">
+            <ul className="space-y-2 text-neutral-700">
                 <li>• Strategic leadership and change management</li>
                 <li>• Negotiation and conflict resolution</li>
                 <li>• Cross-cultural management</li>
@@ -71,7 +71,7 @@ const curriculumAreas = [
         icon: <Target className="w-5 h-5" />,
         title: "Specialized Knowledge",
         content: (
-            <ul className="space-y-2 text-neutral-600">
+            <ul className="space-y-2 text-neutral-700">
                 <li>• Social entrepreneurship and venture design</li>
                 <li>• Impact investing and development finance</li>
                 <li>• Industry-specific tracks (Agriculture, Fashion, Sports, etc.)</li>
@@ -84,7 +84,7 @@ const curriculumAreas = [
         icon: <Briefcase className="w-5 h-5" />,
         title: "Applied Experience",
         content: (
-            <ul className="space-y-2 text-neutral-600">
+            <ul className="space-y-2 text-neutral-700">
                 <li>• Capstone project with real organizations</li>
                 <li>• Think Tank research participation</li>
                 <li>• Industry consulting projects</li>
@@ -181,7 +181,7 @@ export default function MBAPage() {
                             <h2 className="text-heading-1 font-bold text-neutral-900 mb-6">
                                 What Makes This MBA Different
                             </h2>
-                            <div className="space-y-4 text-neutral-600">
+                            <div className="space-y-4 text-neutral-700">
                                 <p>
                                     Most MBA programs were designed for a different era—when physical presence was
                                     necessary and business education meant corporate career tracks.
@@ -228,7 +228,7 @@ export default function MBAPage() {
                         <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
                             Curriculum
                         </h2>
-                        <p className="text-body-lg text-neutral-600">
+                        <p className="text-body-lg text-neutral-700">
                             Comprehensive business education with practical application at every stage.
                         </p>
                     </AnimatedSection>

@@ -43,7 +43,7 @@ export function AboutSection() {
                             <h2 className="text-heading-1 font-bold text-neutral-900">
                                 Let's Be Direct
                             </h2>
-                            <p className="text-body-lg text-neutral-600 leading-relaxed">
+                            <p className="text-body-lg text-neutral-700 leading-relaxed">
                                 Most people can't afford an MBA that serves their ambition for growth,
                                 that least disrupts their lives and at costs they can afford. Not because
                                 they're not smart enough or capable enough, but because the{" "}
@@ -69,7 +69,7 @@ export function AboutSection() {
                                 {notSpendItems.map((item, index) => (
                                     <li
                                         key={index}
-                                        className="flex items-center gap-3 text-neutral-600"
+                                        className="flex items-center gap-3 text-neutral-700"
                                     >
                                         <span className="p-2 rounded-lg bg-neutral-100 text-neutral-500">
                                             {item.icon}
