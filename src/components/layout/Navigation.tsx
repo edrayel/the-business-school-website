@@ -46,12 +46,12 @@ export function Navigation() {
         <>
             <header
                 className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                        ? "bg-white/90 backdrop-blur-lg shadow-soft"
-                        : "bg-transparent"
+                    ? "bg-white/90 backdrop-blur-lg shadow-soft"
+                    : "bg-transparent"
                     }`}
             >
                 <nav className="container-custom">
-                    <div className="flex h-18 items-center justify-between lg:h-22">
+                    <div className="flex h-16 items-center justify-between lg:h-20">
                         {/* Logo */}
                         <Link
                             href="/"
@@ -70,8 +70,8 @@ export function Navigation() {
                                     key={link.href}
                                     href={link.href}
                                     className={`relative py-2 text-sm font-medium transition-colors ${pathname === link.href
-                                            ? "text-primary-600"
-                                            : "text-neutral-700 hover:text-primary-600"
+                                        ? "text-primary-600"
+                                        : "text-neutral-700 hover:text-primary-600"
                                         }`}
                                 >
                                     {link.label}
@@ -148,8 +148,8 @@ export function Navigation() {
                                                 <Link
                                                     href={link.href}
                                                     className={`flex items-center justify-between py-4 text-lg font-medium transition-colors ${pathname === link.href
-                                                            ? "text-primary-600"
-                                                            : "text-neutral-700 hover:text-primary-600"
+                                                        ? "text-primary-600"
+                                                        : "text-neutral-700 hover:text-primary-600"
                                                         }`}
                                                 >
                                                     {link.label}
@@ -181,7 +181,7 @@ export function Navigation() {
             </AnimatePresence>
 
             {/* Spacer for fixed header */}
-            <div className="h-18 lg:h-22" />
+            <div className="h-16 lg:h-20" />
         </>
     );
 }
