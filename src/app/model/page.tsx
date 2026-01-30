@@ -111,8 +111,8 @@ export default function ModelPage() {
                             How THE Business School Works
                         </h1>
                         <p className="text-xl text-white/80 leading-relaxed">
-                            We've built a business school around a simple idea: eliminate every cost
-                            that doesn't directly improve your learning.
+                            We&apos;ve built a business school around a simple idea: eliminate every cost
+                            that doesn&apos;t directly improve your learning.
                         </p>
                     </AnimatedSection>
                 </Container>
@@ -124,10 +124,10 @@ export default function ModelPage() {
                     <AnimatedSection animation="fadeUp" className="max-w-3xl mx-auto text-center">
                         <p className="text-body-lg text-neutral-700 leading-relaxed">
                             Most of what makes education expensive has nothing to do with education.
-                            It's real estate, buildings that sit empty, administrative overhead, location premiums.
+                            It&apos;s real estate, buildings that sit empty, administrative overhead, location premiums.
                         </p>
                         <p className="text-xl text-primary-600 font-semibold mt-6">
-                            We don't have those costs. So you don't pay for them.
+                            We don&apos;t have those costs. So you don&apos;t pay for them.
                         </p>
                     </AnimatedSection>
                 </Container>
@@ -279,7 +279,7 @@ export default function ModelPage() {
                             Research Infrastructure for Real Questions
                         </h2>
                         <p className="text-xl text-white/80 leading-relaxed mb-8">
-                            Students don't just learn existing frameworks—they generate new knowledge
+                            Students don&apos;t just learn existing frameworks—they generate new knowledge
                             addressing specific challenges. Investigate questions unique to your context
                             that existing literature may not address.
                         </p>
@@ -374,7 +374,7 @@ export default function ModelPage() {
                                 </div>
                                 <h3 className="text-lg font-bold text-neutral-900 mb-3">Scalability</h3>
                                 <p className="text-neutral-700 text-sm leading-relaxed">
-                                    Platform costs don't increase proportionally. Public spaces exist everywhere.
+                                    Platform costs don&apos;t increase proportionally. Public spaces exist everywhere.
                                     Faculty can teach remotely. We can serve 10x without fundamentally changing how we operate.
                                 </p>
                             </div>
@@ -414,7 +414,7 @@ export default function ModelPage() {
                             Value for Your Work &amp; Ventures
                         </h2>
                         <p className="text-body-lg text-neutral-700 max-w-2xl mx-auto">
-                            Whether it's a venture, an organization, or a community initiative—you'll have the strategic frameworks and operational tools to do it sustainably.
+                            Whether it&apos;s a venture, an organization, or a community initiative—you&apos;ll have the strategic frameworks and operational tools to do it sustainably.
                         </p>
                     </AnimatedSection>
 
@@ -487,9 +487,9 @@ export default function ModelPage() {
                                 Traditional business schools built their models when physical presence
                                 was necessary for education delivery. <span className="text-accent-400">That constraint no longer exists.</span>
                             </p>
-                            <p className="font-semibold text-white">We're not cutting corners. We're cutting costs that don't serve learning.</p>
-                            <p className="font-semibold text-white">We're not lowering standards. We're eliminating barriers.</p>
-                            <p className="font-semibold text-white">We're not offering less. We're delivering more of what actually matters.</p>
+                            <p className="font-semibold text-white">We&apos;re not cutting corners. We&apos;re cutting costs that don&apos;t serve learning.</p>
+                            <p className="font-semibold text-white">We&apos;re not lowering standards. We&apos;re eliminating barriers.</p>
+                            <p className="font-semibold text-white">We&apos;re not offering less. We&apos;re delivering more of what actually matters.</p>
                         </div>
                         <div className="flex flex-wrap justify-center gap-4 mt-10">
                             <Button as="link" href="/apply" variant="accent" size="lg" icon={<ArrowRight className="w-5 h-5" />}>

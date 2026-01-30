@@ -27,7 +27,7 @@ export default function NotFound() {
                     </h1>
 
                     <p className="text-neutral-700 mb-8 max-w-md mx-auto">
-                        Sorry, we couldn't find the page you're looking for. Perhaps you'd like
+                        Sorry, we couldn&apos;t find the page you&apos;re looking for. Perhaps you&apos;d like
                         to explore our programs or head back home?
                     </p>
 

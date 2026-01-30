@@ -15,7 +15,7 @@ const curriculumItems = [
                     finance and accounting, marketing, operations, organizational behavior, and strategy.
                 </p>
                 <p className="text-primary-600 font-medium">
-                    Not theory for theory's sake—but frameworks you'll use to make better decisions.
+                    Not theory for theory&apos;s sake—but frameworks you&apos;ll use to make better decisions.
                 </p>
             </div>
         ),
@@ -50,7 +50,7 @@ const curriculumItems = [
                     organizational culture, and make ethical decisions under pressure.
                 </p>
                 <p className="text-neutral-700">
-                    These aren't soft skills—they're the hard skills that determine whether
+                    These aren&apos;t soft skills—they&apos;re the hard skills that determine whether
                     organizations succeed or fail.
                 </p>
             </div>
@@ -101,7 +101,7 @@ export function CurriculumHighlights() {
             <Container variant="narrow">
                 <AnimatedSection animation="fadeUp" className="text-center mb-12">
                     <h2 className="text-heading-1 font-bold text-neutral-900 mb-4">
-                        What You'll Actually Learn
+                        What You&apos;ll Actually Learn
                     </h2>
                     <p className="text-body-lg text-neutral-700">
                         A curriculum designed for application, not just accumulation.

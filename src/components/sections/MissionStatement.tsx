@@ -29,7 +29,7 @@ export function MissionStatement() {
                     </h2>
 
                     <p className="text-xl md:text-2xl text-neutral-700 mb-12 leading-relaxed">
-                        We're focused on delivering exceptional business education to people who need it.
+                        We&apos;re focused on delivering exceptional business education to people who need it.
                     </p>
 
                     {/* Beliefs */}
@@ -67,7 +67,7 @@ export function MissionStatement() {
                         className="p-8 rounded-3xl bg-gradient-to-br from-primary-600 to-primary-800 text-white"
                     >
                         <p className="text-lg md:text-xl leading-relaxed">
-                            We've designed everything—our model, delivery, pricing—around these beliefs.
+                            We&apos;ve designed everything—our model, delivery, pricing—around these beliefs.
                         </p>
                     </motion.div>
                 </AnimatedSection>

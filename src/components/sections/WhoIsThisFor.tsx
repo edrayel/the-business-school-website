@@ -27,7 +27,7 @@ export function WhoIsThisFor() {
                         Who This Is For
                     </h2>
                     <p className="text-body-lg text-neutral-700 max-w-2xl mx-auto">
-                        We're building this for people who want results, not just a document
+                        We&apos;re building this for people who want results, not just a document
                         to show they studied.
                     </p>
                 </AnimatedSection>
@@ -95,7 +95,7 @@ export function WhoIsThisFor() {
                                 </div>
 
                                 <h3 className="text-heading-2 font-bold text-neutral-900 mb-8">
-                                    You'll Thrive Here If:
+                                    You&apos;ll Thrive Here If:
                                 </h3>
 
                                 <ul className="space-y-5">

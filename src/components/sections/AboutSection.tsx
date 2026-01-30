@@ -41,12 +41,12 @@ export function AboutSection() {
                     <div>
                         <AnimatedSection animation="fadeUp" className="space-y-6">
                             <h2 className="text-heading-1 font-bold text-neutral-900">
-                                Let's Be Direct
+                                Let&apos;s Be Direct
                             </h2>
                             <p className="text-body-lg text-neutral-700 leading-relaxed">
-                                Most people can't afford an MBA that serves their ambition for growth,
+                                Most people can&apos;t afford an MBA that serves their ambition for growth,
                                 that least disrupts their lives and at costs they can afford. Not because
-                                they're not smart enough or capable enough, but because the{" "}
+                                they&apos;re not smart enough or capable enough, but because the{" "}
                                 <span className="text-primary-600 font-semibold">
                                     quality-price envelope has largely gone out of sync
                                 </span>.
@@ -55,7 +55,7 @@ export function AboutSection() {
                                 <p className="text-body text-primary-800 font-medium">
                                     <strong className="text-primary-900">THE Business School exists to change that equation.</strong>{" "}
                                     We deliver rigorous curriculum with qualified faculty, comprehensive
-                                    resources, and meaningful credentials—at a fraction of what you'd expect to pay.
+                                    resources, and meaningful credentials—at a fraction of what you&apos;d expect to pay.
                                 </p>
                             </div>
                         </AnimatedSection>
@@ -63,7 +63,7 @@ export function AboutSection() {
                         {/* What we don't spend on */}
                         <AnimatedDiv animation="fadeUp" delay={0.2} className="mt-10">
                             <h3 className="text-lg font-semibold text-neutral-900 mb-4">
-                                What we don't spend on:
+                                What we don&apos;t spend on:
                             </h3>
                             <ul className="space-y-3">
                                 {notSpendItems.map((item, index) => (
@@ -87,7 +87,7 @@ export function AboutSection() {
                                     <strong>The result?</strong> An MBA program that makes financial sense.
                                     Study online and in public spaces like libraries, cafés, and community
                                     centers. Maintain your income and stay connected to your work and community.
-                                    <span className="font-semibold"> This isn't a compromise; it's a smarter design.</span>
+                                    <span className="font-semibold"> This isn&apos;t a compromise; it&apos;s a smarter design.</span>
                                 </p>
                             </div>
                         </AnimatedDiv>

@@ -196,7 +196,7 @@ export default function FacultyPage() {
                             Our Faculty: Expertise That Serves Your Goals
                         </h1>
                         <p className="text-xl text-white/80 leading-relaxed">
-                            We hire people who can teach and people who know what they're talking about. That's it.
+                            We hire people who can teach and people who know what they&apos;re talking about. That&apos;s it.
                         </p>
                     </AnimatedSection>
                 </Container>
@@ -207,14 +207,14 @@ export default function FacultyPage() {
                 <Container variant="narrow">
                     <AnimatedSection animation="fadeUp" className="text-center">
                         <p className="text-body-lg text-neutral-700 leading-relaxed">
-                            Our faculty hold advanced degrees from respected institutions. They've published research.
-                            They've built businesses, advised organizations, worked in the sectors they teach about.
+                            Our faculty hold advanced degrees from respected institutions. They&apos;ve published research.
+                            They&apos;ve built businesses, advised organizations, worked in the sectors they teach about.
                             They know their subjects deeply and they know how to help you learn them.
                         </p>
                         <p className="text-body text-neutral-700 mt-6">
-                            We don't hire based on prestige or pedigree. We hire based on whether someone can make
-                            complex ideas clear, whether they've done the work they're teaching, and whether
-                            they're committed to your success.
+                            We don&apos;t hire based on prestige or pedigree. We hire based on whether someone can make
+                            complex ideas clear, whether they&apos;ve done the work they&apos;re teaching, and whether
+                            they&apos;re committed to your success.
                         </p>
                     </AnimatedSection>
                 </Container>
@@ -246,8 +246,8 @@ export default function FacultyPage() {
                                 Join Our Faculty
                             </h2>
                             <p className="text-neutral-700 mb-6 max-w-lg mx-auto">
-                                We're always looking for exceptional educators who combine academic rigor
-                                with real-world experience. If that's you, we'd love to hear from you.
+                                We&apos;re always looking for exceptional educators who combine academic rigor
+                                with real-world experience. If that&apos;s you, we&apos;d love to hear from you.
                             </p>
                             <Button
                                 as="link"

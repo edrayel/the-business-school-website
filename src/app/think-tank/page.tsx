@@ -23,7 +23,7 @@ import {
 import { Container, AnimatedSection, AnimatedDiv, StaggerContainer, StaggerItem, Button, MotionCard, Accordion } from "@/components/ui";
 
 const participants = [
-    "Current students applying what they're learning",
+    "Current students applying what they&apos;re learning",
     "Alumni continuing to develop ventures",
     "Faculty exploring questions that need answering",
     "Partner organizations needing analytical support",
@@ -38,7 +38,7 @@ const activities = [
         title: "Research That Solves Problems",
         content: (
             <div className="space-y-4">
-                <p>Research at THE Think Tank addresses questions that matter to people building things. Not research for publication's sake—research to inform decisions and generate new solutions.</p>
+                <p>Research at THE Think Tank addresses questions that matter to people building things. Not research for publication&apos;s sake—research to inform decisions and generate new solutions.</p>
                 <p className="font-medium text-neutral-800">Questions we explore:</p>
                 <ul className="list-disc list-inside text-neutral-700 space-y-1 ml-2">
                     <li>What business models work for smallholder farmers in specific regions?</li>
@@ -74,7 +74,7 @@ const activities = [
                         </div>
                     ))}
                 </div>
-                <p className="text-neutral-700">Groups meet monthly in hybrid format. <span className="font-medium text-neutral-800">These aren't networking groups—they're working groups.</span></p>
+                <p className="text-neutral-700">Groups meet monthly in hybrid format. <span className="font-medium text-neutral-800">These aren&apos;t networking groups—they&apos;re working groups.</span></p>
             </div>
         ),
     },
@@ -86,7 +86,7 @@ const activities = [
             <div className="space-y-4">
                 <p>Regular sessions with people doing the work—entrepreneurs, investors, policymakers, operators sharing specific insights you can use.</p>
                 <p className="font-medium text-primary-700">Not motivational speeches. Knowledge transfer.</p>
-                <p className="text-neutral-700">Sessions are hybrid. Recordings available for those who can't attend live.</p>
+                <p className="text-neutral-700">Sessions are hybrid. Recordings available for those who can&apos;t attend live.</p>
             </div>
         ),
     },
@@ -103,7 +103,7 @@ const activities = [
                     <li>Help validating markets and testing assumptions</li>
                     <li>Connections to potential partners and investors</li>
                 </ul>
-                <p className="text-neutral-700">This isn't formal incubation. It's <span className="font-medium text-neutral-800">ongoing support from people who know what you're going through.</span></p>
+                <p className="text-neutral-700">This isn&apos;t formal incubation. It&apos;s <span className="font-medium text-neutral-800">ongoing support from people who know what you&apos;re going through.</span></p>
             </div>
         ),
     },
@@ -151,16 +151,16 @@ const signaturePrograms = [
 ];
 
 const shouldEngage = [
-    "You're working on a real challenge and need perspectives beyond your own",
+    "You&apos;re working on a real challenge and need perspectives beyond your own",
     "You have expertise that could help others solve problems",
-    "You're building a venture or organization and need support",
+    "You&apos;re building a venture or organization and need support",
     "You have research questions that need rigorous investigation",
 ];
 
 const shouldNot = [
-    "You're looking for networking without contributing",
+    "You&apos;re looking for networking without contributing",
     "You want theoretical discussions disconnected from application",
-    "You're not willing to share what you're learning",
+    "You&apos;re not willing to share what you&apos;re learning",
 ];
 
 const whatGetsProduced = [
@@ -225,7 +225,7 @@ export default function ThinkTankPage() {
                 <Container variant="narrow">
                     <AnimatedSection animation="fadeUp" className="text-center">
                         <p className="text-body-lg text-neutral-700 leading-relaxed">
-                            This isn't an academic research center publishing papers nobody reads. It's a working
+                            This isn&apos;t an academic research center publishing papers nobody reads. It&apos;s a working
                             space where students, alumni, partners, and practitioners collaborate on actual problems.
                             Where ideas get tested. Where projects get built.
                         </p>
@@ -417,7 +417,7 @@ export default function ThinkTankPage() {
                             The Practical Reality
                         </h2>
                         <p className="text-neutral-700 mb-8">
-                            Think Tank operates on limited resources. We can't support every project, provide deep expertise in every domain, or solve every problem. <span className="font-medium text-neutral-800">We're honest about what we can and can't provide.</span>
+                            Think Tank operates on limited resources. We can&apos;t support every project, provide deep expertise in every domain, or solve every problem. <span className="font-medium text-neutral-800">We&apos;re honest about what we can and can&apos;t provide.</span>
                         </p>
 
                         <div className="p-6 rounded-2xl bg-white border border-neutral-200 text-left">
@@ -431,7 +431,7 @@ export default function ThinkTankPage() {
                                 ))}
                             </ul>
                             <p className="mt-6 text-sm text-neutral-500 italic">
-                                Sometimes that's enough to unlock what you need. Sometimes you'll need more specialized support elsewhere.
+                                Sometimes that&apos;s enough to unlock what you need. Sometimes you&apos;ll need more specialized support elsewhere.
                             </p>
                         </div>
                     </AnimatedSection>
@@ -469,7 +469,7 @@ export default function ThinkTankPage() {
                             <div className="h-full p-6 rounded-2xl bg-red-50 border border-red-200">
                                 <h3 className="font-semibold text-red-800 mb-4 flex items-center gap-2">
                                     <X className="w-5 h-5" />
-                                    You won't find value if:
+                                    You won&apos;t find value if:
                                 </h3>
                                 <ul className="space-y-3">
                                     {shouldNot.map((item, i) => (
@@ -535,7 +535,7 @@ export default function ThinkTankPage() {
                 <Container variant="narrow">
                     <div className="grid md:grid-cols-2 gap-8">
                         <AnimatedDiv animation="fadeUp" delay={0.1}>
-                            <h3 className="text-lg font-semibold text-white/60 mb-4">What This Isn't</h3>
+                            <h3 className="text-lg font-semibold text-white/60 mb-4">What This Isn&apos;t</h3>
                             <ul className="space-y-3 text-white/80">
                                 <li className="flex items-start gap-3">
                                     <X className="w-5 h-5 mt-0.5 flex-shrink-0 text-red-400" />
@@ -551,7 +551,7 @@ export default function ThinkTankPage() {
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <X className="w-5 h-5 mt-0.5 flex-shrink-0 text-red-400" />
-                                    Not networking for networking's sake
+                                    Not networking for networking&apos;s sake
                                 </li>
                             </ul>
                         </AnimatedDiv>

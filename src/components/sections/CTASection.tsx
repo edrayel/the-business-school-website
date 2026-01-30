@@ -43,7 +43,7 @@ export function CTASection() {
 
                     <p className="text-xl text-white/80 mb-10 leading-relaxed">
                         Stop letting cost barriers delay your goals. The knowledge, faculty, and
-                        technology exist. The only question is whether you're ready to do the work.
+                        technology exist. The only question is whether you&apos;re ready to do the work.
                     </p>
 
                     {/* CTA Buttons */}

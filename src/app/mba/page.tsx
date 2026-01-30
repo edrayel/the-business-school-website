@@ -187,7 +187,7 @@ export default function MBAPage() {
                                     necessary and business education meant corporate career tracks.
                                 </p>
                                 <p>
-                                    We've built something different. An MBA that recognizes you have a life, a career,
+                                    We&apos;ve built something different. An MBA that recognizes you have a life, a career,
                                     possibly a venture already in motion. That values application over theory. That
                                     costs what education actually costs to deliver, not what the market will bear.
                                 </p>
